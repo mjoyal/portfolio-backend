@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS projects CASCADE;
+
+CREATE TABLE projects (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  description VARCHAR NOT NULL,
+  stack VARCHAR NOT NULL,
+  image VARCHAR NOT NULL,
+  link VARCHAR NOT NULL
+);
