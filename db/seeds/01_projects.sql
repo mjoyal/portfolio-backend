@@ -15,7 +15,7 @@ VALUES ('Taco Takeout',
 'A food ordering experience for a single restaurant (Taco Takeout).
 Customers can visit this website, select one or more dishes, and place an order for pick-up.
 They will receive a text notification when their order is ready.
-\n
+
 When an order is placed the restaurant receives the order via SMS.
 The restaurant can then specify how long it will take to fulfill it via the admin screen.
 Once they provide this information, the
@@ -33,7 +33,7 @@ history to save predefined content and customer note history. After deploying th
 the call centre saw a 33% gain in call time efficiency.',
 'Vanilla JS, HTML5, SCSS',
 'images/notator-project.png',
-'');
+'https://github.com/mjoyal/notator');
 
 
 INSERT INTO projects (title, description, stack, image, link)
@@ -42,7 +42,7 @@ VALUES (
 'Scheduler is a React-based application that makes scheduling
 interview appointments easy & fun! Add, edit, and delete appointments
 easily for any day of the week.
-\n
+
 Enter the name of the student and select an instructor. Form
 validation will stop any requests to the database if there is no
 student name entered or interview selected. If there are errors when
@@ -58,7 +58,7 @@ VALUES (
 'Tweeter is a simple, single-page Twitter clone. Users can
 submit new tweets which will immediately post data to the server
 and render the tweet on the page in reverse-chronological order.
-\n
+
 When users try to submit a tweet without any text or with text
 greater than 140 characters, an error message will be shown.
 a dynamic counter will update the user on the amount of characters they have left.',
