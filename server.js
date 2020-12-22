@@ -29,11 +29,13 @@ app.get('/', (req, res) => {
 // Note: Feel free to replace the example routes below with your own
 const projectRoutes = require("./routes/projects");
 const skillsRoutes = require("./routes/skills");
+const endorsementsRoutes = require("./routes/endorsements");
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
 app.use("/projects", projectRoutes(db));
 app.use("/skills", skillsRoutes(db));
+app.use("/endorsements", endorsementsRoutes(db));
 
 // Note: mount other resources here, using the same pattern above
 
