@@ -67,3 +67,14 @@ a dynamic counter will update the user on the amount of characters they have lef
 'https://github.com/mjoyal/tweeter'
 );
 
+INSERT INTO projects (title, description, stack, image, link)
+VALUES (
+'Jungle',
+'A mini e-commerce application built with Rails 4.2. App supports login for both Admin & users.
+Admins can add new products and new product categories. Users can purchase products using Stripe.
+Secured with HTTP basic authentication. App tested with RSPEC for models and Capybara(Poltergeist) for features.',
+'Ruby on Rails, SCSS, Capybara(Poltergeist)',
+'images/jungle-project.png',
+'https://github.com/mjoyal/jungle'
+);
+
